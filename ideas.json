@@ -49,7 +49,6 @@
     {"nom": "géant", "genre": "masculin"}, {"nom": "ogre", "genre": "masculin"}, {"nom": "farfadet", "genre": "masculin"},
     {"nom": "princesse", "genre": "féminin"}, {"nom": "barbare", "genre": "masculin"}, {"nom": "voleuse", "genre": "féminin"}
   ]
-}
       },
       "animaux": {
         "noms": [
