@@ -1,6 +1,22 @@
 {
-  "genres": ["Fantasy", "Science-fiction", "Horreur", "Romance"],
-  "lieux": ["une forêt sombre", "une ville futuriste", "un château hanté"],
-  "personnages": ["un sorcier excentrique", "un robot rebelle"],
-  "objets": ["une épée magique", "un journal mystérieux"]
+  "styles": {
+    "Fantasy": {
+      "personnages": ["un sorcier excentrique", "une elfe mystérieuse", "un dragon gardien"],
+      "animaux": ["un griffon majestueux", "un loup enchanté", "une licorne brillante"],
+      "vehicules": ["un char volant", "une carriole magique"],
+      "paysages": ["une forêt enchantée", "une montagne de cristal", "un lac scintillant"]
+    },
+    "Science-fiction": {
+      "personnages": ["un pilote interstellaire", "un cyborg explorateur", "une scientifique alien"],
+      "animaux": ["une créature mutante", "un robot-animal", "un lézard spatial"],
+      "vehicules": ["un vaisseau spatial", "un hoverbike futuriste"],
+      "paysages": ["une planète désertique", "une ville flottante", "un astéroïde habitable"]
+    },
+    "Horreur": {
+      "personnages": ["un fantôme vengeur", "un tueur masqué", "une sorcière maléfique"],
+      "animaux": ["un corbeau sinistre", "une araignée géante", "un chien démoniaque"],
+      "vehicules": ["une voiture hantée", "un train abandonné"],
+      "paysages": ["un cimetière brumeux", "une maison en ruine", "une forêt maudite"]
+    }
+  }
 }
