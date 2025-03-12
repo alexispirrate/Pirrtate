@@ -1,141 +1,464 @@
 {
-  "adjectifs": [
-    "excentrique", "mystérieux", "gardien", "forgeron", "guérisseur",
-    "errant", "guerrier", "sauvage", "inventif", "sage",
-    "exilé", "sacré", "voyageur", "explorateur", "charmeur",
-    "protecteur", "déchu", "agile", "lunaire", "ancien",
-    "majestueux", "enchanté", "brillant", "royal", "magique",
-    "spirituel", "spectral", "lumineux", "divin", "runique",
-    "renaissant", "mystique", "féerique", "joueur", "ailé",
-    "interstellaire", "cybernétique", "alien", "spatial", "rebelle",
-    "galactique", "martien", "mutant", "bionique", "holographique",
-    "vengeur", "maléfique", "affamé", "assoiffé", "possédé",
-    "terrifiant", "tourmenté", "sinistre", "hurlant", "maudit"
-  ],
+"adjectifs": [
+  "excentrique", "mystérieux", "gardien", "forgeron", "guérisseur", "errant", "guerrier", "sauvage", "inventif", "sage",
+  "exilé", "sacré", "voyageur", "explorateur", "charmeur", "protecteur", "déchu", "agile", "lunaire", "ancien",
+  "majestueux", "enchanté", "brillant", "royal", "magique", "spirituel", "spectral", "lumineux", "divin", "runique",
+  "renaissant", "mystique", "féerique", "joueur", "ailé", "interstellaire", "cybernétique", "alien", "spatial", "rebelle",
+  "galactique", "martien", "mutant", "bionique", "holographique", "vengeur", "maléfique", "affamé", "assoiffé", "possédé",
+  "terrifiant", "tourmenté", "sinistre", "hurlant", "maudit", "éthéré", "glacial", "flamboyant", "obscur", "céleste",
+  "chaotique", "serein", "électrique", "vibrant", "insaisissable", "farouche", "ténébreux", "radieux", "souterrain", "cosmique",
+  "primitif", "éternel", "volcanique", "nimbé", "surnaturel", "éblouissant", "vorace", "silencieux", "impitoyable", "évanescent",
+  "audacieux", "frénétique", "paisible", "sombre", "éclatant", "glacial", "perdu", "enflammé", "dévastateur", "miroitant",
+  "abyssal", "tortueux", "mélancolique", "intrépide", "cristallin", "désolé", "sanglant", "foudroyant", "épars", "insondable"
+]
   "styles": {
     "Fantasy": {
       "personnages": {
-        "noms": [
-          "sorcier", "elfe", "dragon", "nain", "fée",
-          "chevalier", "orc", "sorcière", "gnome", "troll",
-          "princesse", "paladin", "barde", "centaure", "démon",
-          "dryade", "roi", "voleur", "prêtresse", "esprit"
-        ]
+  "noms": [
+    {"nom": "sorcier", "genre": "masculin"}, {"nom": "elfe", "genre": "féminin"}, {"nom": "dragon", "genre": "masculin"},
+    {"nom": "nain", "genre": "masculin"}, {"nom": "fée", "genre": "féminin"}, {"nom": "chevalier", "genre": "masculin"},
+    {"nom": "orc", "genre": "masculin"}, {"nom": "sorcière", "genre": "féminin"}, {"nom": "gnome", "genre": "masculin"},
+    {"nom": "troll", "genre": "masculin"}, {"nom": "princesse", "genre": "féminin"}, {"nom": "paladin", "genre": "masculin"},
+    {"nom": "barde", "genre": "masculin"}, {"nom": "centaure", "genre": "masculin"}, {"nom": "démon", "genre": "masculin"},
+    {"nom": "dryade", "genre": "féminin"}, {"nom": "roi", "genre": "masculin"}, {"nom": "voleur", "genre": "masculin"},
+    {"nom": "prêtresse", "genre": "féminin"}, {"nom": "esprit", "genre": "masculin"}, {"nom": "guerrier", "genre": "masculin"},
+    {"nom": "archer", "genre": "masculin"}, {"nom": "chaman", "genre": "masculin"}, {"nom": "reine", "genre": "féminin"},
+    {"nom": "magicien", "genre": "masculin"}, {"nom": "gobelin", "genre": "masculin"}, {"nom": "enchanteresse", "genre": "féminin"},
+    {"nom": "barbare", "genre": "masculin"}, {"nom": "nécromancien", "genre": "masculin"}, {"nom": "sylphide", "genre": "féminin"},
+    {"nom": "ogre", "genre": "masculin"}, {"nom": "druide", "genre": "masculin"}, {"nom": "sirène", "genre": "féminin"},
+    {"nom": "vampire", "genre": "masculin"}, {"nom": "géant", "genre": "masculin"}, {"nom": "alchimiste", "genre": "masculin"},
+    {"nom": "faucheuse", "genre": "féminin"}, {"nom": "moine", "genre": "masculin"}, {"nom": "banshee", "genre": "féminin"},
+    {"nom": "chasseur", "genre": "masculin"}, {"nom": "gardien", "genre": "masculin"}, {"nom": "nymphe", "genre": "féminin"},
+    {"nom": "prophète", "genre": "masculin"}, {"nom": "assassin", "genre": "masculin"}, {"nom": "guérisseuse", "genre": "féminin"},
+    {"nom": "forgeron", "genre": "masculin"}, {"nom": "sentinelle", "genre": "féminin"}, {"nom": "explorateur", "genre": "masculin"},
+    {"nom": "muse", "genre": "féminin"}, {"nom": "pirate", "genre": "masculin"}, {"nom": "gardienne", "genre": "féminin"},
+    {"nom": "mage", "genre": "masculin"}, {"nom": "harpie", "genre": "féminin"}, {"nom": "chevaleresse", "genre": "féminin"},
+    {"nom": "seigneur", "genre": "masculin"}, {"nom": "prince", "genre": "masculin"}, {"nom": "duchesse", "genre": "féminin"},
+    {"nom": "chanteur", "genre": "masculin"}, {"nom": "loup-garou", "genre": "masculin"}, {"nom": "médium", "genre": "féminin"},
+    {"nom": "soldat", "genre": "masculin"}, {"nom": "mercenaire", "genre": "masculin"}, {"nom": "oracle", "genre": "féminin"},
+    {"nom": "colosse", "genre": "masculin"}, {"nom": "nomade", "genre": "masculin"}, {"nom": "chasseresse", "genre": "féminin"},
+    {"nom": "artisan", "genre": "masculin"}, {"nom": "prophétesse", "genre": "féminin"}, {"nom": "élémental", "genre": "masculin"},
+    {"nom": "cheffe", "genre": "féminin"}, {"nom": "brigand", "genre": "masculin"}, {"nom": "danseuse", "genre": "féminin"},
+    {"nom": "constructeur", "genre": "masculin"}, {"nom": "gardien", "genre": "masculin"}, {"nom": "sorcière", "genre": "féminin"},
+    {"nom": "pèlerin", "genre": "masculin"}, {"nom": "courtisane", "genre": "féminin"}, {"nom": "alchimiste", "genre": "masculin"},
+    {"nom": "éclaireur", "genre": "masculin"}, {"nom": "gardienne", "genre": "féminin"}, {"nom": "artiste", "genre": "masculin"},
+    {"nom": "conteur", "genre": "masculin"}, {"nom": "ménestrel", "genre": "masculin"}, {"nom": "reine", "genre": "féminin"},
+    {"nom": "druidesse", "genre": "féminin"}, {"nom": "chevalier", "genre": "masculin"}, {"nom": "bandit", "genre": "masculin"},
+    {"nom": "sentinelle", "genre": "féminin"}, {"nom": "banshee", "genre": "féminin"}, {"nom": "magicienne", "genre": "féminin"},
+    {"nom": "seigneur", "genre": "masculin"}, {"nom": "guerrière", "genre": "féminin"}, {"nom": "archère", "genre": "féminin"},
+    {"nom": "géant", "genre": "masculin"}, {"nom": "ogre", "genre": "masculin"}, {"nom": "farfadet", "genre": "masculin"},
+    {"nom": "princesse", "genre": "féminin"}, {"nom": "barbare", "genre": "masculin"}, {"nom": "voleuse", "genre": "féminin"}
+  ]
+}
       },
       "animaux": {
         "noms": [
-          "griffon", "loup", "licorne", "aigle", "serpent",
-          "ours", "chat", "cerf", "corbeau", "tigre",
-          "chouette", "phénix", "lynx", "crocodile", "écureuil",
-          "dragonnet", "cheval", "scorpion", "tortue", "renard"
+          {"nom": "griffon", "genre": "masculin"}, {"nom": "loup", "genre": "masculin"}, {"nom": "licorne", "genre": "féminin"},
+          {"nom": "aigle", "genre": "masculin"}, {"nom": "serpent", "genre": "masculin"}, {"nom": "ours", "genre": "masculin"},
+          {"nom": "chat", "genre": "masculin"}, {"nom": "cerf", "genre": "masculin"}, {"nom": "corbeau", "genre": "masculin"},
+          {"nom": "tigre", "genre": "masculin"}
         ]
       },
       "vehicules": {
         "noms": [
-          "char", "carriole", "bateau", "tapis", "diligence",
-          "traîneau", "chariot", "radeau", "montgolfière", "drakkar",
-          "litière", "char", "traîneau", "bateau-dragon", "calèche",
-          "chariot", "radeau", "gondole", "carrosse", "traîneau"
+          {"nom": "char", "genre": "masculin"}, {"nom": "carriole", "genre": "féminin"}, {"nom": "bateau", "genre": "masculin"},
+          {"nom": "tapis", "genre": "masculin"}, {"nom": "diligence", "genre": "féminin"}, {"nom": "traîneau", "genre": "masculin"},
+          {"nom": "chariot", "genre": "masculin"}, {"nom": "radeau", "genre": "masculin"}, {"nom": "montgolfière", "genre": "féminin"},
+          {"nom": "drakkar", "genre": "masculin"}
         ]
       },
       "paysages": {
         "noms": [
-          "forêt", "montagne", "lac", "plaine", "vallée",
-          "désert", "caverne", "rivière", "plateau", "île",
-          "jungle", "canyon", "steppe", "glacier", "falaise",
-          "marais", "prairie", "volcan", "gorge", "archipel"
+          {"nom": "forêt", "genre": "féminin"}, {"nom": "montagne", "genre": "féminin"}, {"nom": "lac", "genre": "masculin"},
+          {"nom": "plaine", "genre": "féminin"}, {"nom": "vallée", "genre": "féminin"}, {"nom": "désert", "genre": "masculin"},
+          {"nom": "caverne", "genre": "féminin"}, {"nom": "rivière", "genre": "féminin"}, {"nom": "plateau", "genre": "masculin"},
+          {"nom": "île", "genre": "féminin"}
         ]
       },
       "accessoires": {
         "noms": [
-          "bâton", "couronne", "collier", "anneau", "dague",
-          "bouclier", "amulette", "grimoire", "flûte", "cape",
-          "sceptre", "miroir", "bourse", "lanterne", "pendentif",
-          "ceinture", "médaillon", "plume", "cor", "talisman"
+          {"nom": "bâton", "genre": "masculin"}, {"nom": "couronne", "genre": "féminin"}, {"nom": "collier", "genre": "masculin"},
+          {"nom": "anneau", "genre": "masculin"}, {"nom": "dague", "genre": "féminin"}, {"nom": "bouclier", "genre": "masculin"},
+          {"nom": "amulette", "genre": "féminin"}, {"nom": "grimoire", "genre": "masculin"}, {"nom": "flûte", "genre": "féminin"},
+          {"nom": "cape", "genre": "féminin"}
         ]
       }
     },
     "Science-fiction": {
       "personnages": {
         "noms": [
-          "pilote", "cyborg", "scientifique", "mercenaire", "androïde",
-          "capitaine", "hacker", "colonne", "robot", "clone",
-          "ambassadrice", "ingénieur", "pilote", "explorateur", "cyborg",
-          "télépathe", "pilote", "technicien", "savant", "robot"
+          {"nom": "pilote", "genre": "masculin"}, {"nom": "cyborg", "genre": "masculin"}, {"nom": "scientifique", "genre": "féminin"},
+          {"nom": "mercenaire", "genre": "masculin"}, {"nom": "androïde", "genre": "masculin"}, {"nom": "capitaine", "genre": "masculin"},
+          {"nom": "hacker", "genre": "masculin"}, {"nom": "colonne", "genre": "féminin"}, {"nom": "robot", "genre": "masculin"},
+          {"nom": "clone", "genre": "masculin"}
         ]
       },
       "animaux": {
         "noms": [
-          "créature", "robot-animal", "lézard", "oiseau", "poisson",
-          "singe", "chien", "aigle", "serpent", "chat",
-          "tortue", "faucon", "ours", "corbeau", "loup",
-          "grenouille", "dragon", "poisson", "scorpion", "papillon"
+          {"nom": "créature", "genre": "féminin"}, {"nom": "robot-animal", "genre": "masculin"}, {"nom": "lézard", "genre": "masculin"},
+          {"nom": "oiseau", "genre": "masculin"}, {"nom": "poisson", "genre": "masculin"}, {"nom": "singe", "genre": "masculin"},
+          {"nom": "chien", "genre": "masculin"}, {"nom": "aigle", "genre": "masculin"}, {"nom": "serpent", "genre": "masculin"},
+          {"nom": "chat", "genre": "masculin"}
         ]
       },
       "vehicules": {
         "noms": [
-          "vaisseau", "hoverbike", "navette", "tank", "drône",
-          "sous-marin", "moto", "planeur", "rover", "hélicoptère",
-          "cargo", "buggy", "jet", "vaisseau", "glider",
-          "train", "quad", "pod", "module", "scooter"
+          {"nom": "vaisseau", "genre": "masculin"}, {"nom": "hoverbike", "genre": "masculin"}, {"nom": "navette", "genre": "féminin"},
+          {"nom": "tank", "genre": "masculin"}, {"nom": "drône", "genre": "masculin"}, {"nom": "sous-marin", "genre": "masculin"},
+          {"nom": "moto", "genre": "féminin"}, {"nom": "planeur", "genre": "masculin"}, {"nom": "rover", "genre": "masculin"},
+          {"nom": "hélicoptère", "genre": "masculin"}
         ]
       },
       "paysages": {
         "noms": [
-          "planète", "ville", "astéroïde", "lune", "nébuleuse",
-          "canyon", "station", "océan", "jungle", "désert",
-          "plaine", "montagne", "lac", "forêt", "plateau",
-          "marais", "ville", "cratère", "plaine", "récif"
+          {"nom": "planète", "genre": "féminin"}, {"nom": "ville", "genre": "féminin"}, {"nom": "astéroïde", "genre": "masculin"},
+          {"nom": "lune", "genre": "féminin"}, {"nom": "nébuleuse", "genre": "féminin"}, {"nom": "canyon", "genre": "masculin"},
+          {"nom": "station", "genre": "féminin"}, {"nom": "océan", "genre": "masculin"}, {"nom": "jungle", "genre": "féminin"},
+          {"nom": "désert", "genre": "masculin"}
         ]
       },
       "accessoires": {
         "noms": [
-          "pistolet", "casque", "communicateur", "exosquelette", "puce",
-          "scanner", "clé", "générateur", "visière", "disque",
-          "bracelet", "module", "arme", "traducteur", "drone",
-          "montre", "bouclier", "injecteur", "carte", "terminal"
+          {"nom": "pistolet", "genre": "masculin"}, {"nom": "casque", "genre": "masculin"}, {"nom": "communicateur", "genre": "masculin"},
+          {"nom": "exosquelette", "genre": "masculin"}, {"nom": "puce", "genre": "féminin"}, {"nom": "scanner", "genre": "masculin"},
+          {"nom": "clé", "genre": "féminin"}, {"nom": "générateur", "genre": "masculin"}, {"nom": "visière", "genre": "féminin"},
+          {"nom": "disque", "genre": "masculin"}
         ]
       }
     },
     "Horreur": {
       "personnages": {
         "noms": [
-          "fantôme", "tueur", "sorcière", "zombie", "vampire",
-          "démon", "clown", "poupée", "esprit", "monstre",
-          "veuve", "prêtre", "loup-garou", "nécromancien", "banshee",
-          "chasseur", "squelette", "sorcier", "esprit", "diable"
+          {"nom": "fantôme", "genre": "masculin"}, {"nom": "tueur", "genre": "masculin"}, {"nom": "sorcière", "genre": "féminin"},
+          {"nom": "zombie", "genre": "masculin"}, {"nom": "vampire", "genre": "masculin"}, {"nom": "démon", "genre": "masculin"},
+          {"nom": "clown", "genre": "masculin"}, {"nom": "poupée", "genre": "féminin"}, {"nom": "esprit", "genre": "masculin"},
+          {"nom": "monstre", "genre": "masculin"}
         ]
       },
       "animaux": {
         "noms": [
-          "corbeau", "araignée", "chien", "rat", "chat",
-          "serpent", "loup", "oiseau", "scorpion", "crapaud",
-          "chauve-souris", "corbeau", "chien", "iguane", "hibou",
-          "mouche", "ver", "aigle", "serpent", "scorpion"
+          {"nom": "corbeau", "genre": "masculin"}, {"nom": "araignée", "genre": "féminin"}, {"nom": "chien", "genre": "masculin"},
+          {"nom": "rat", "genre": "masculin"}, {"nom": "chat", "genre": "masculin"}, {"nom": "serpent", "genre": "masculin"},
+          {"nom": "loup", "genre": "masculin"}, {"nom": "oiseau", "genre": "masculin"}, {"nom": "scorpion", "genre": "masculin"},
+          {"nom": "crapaud", "genre": "masculin"}
         ]
       },
       "vehicules": {
         "noms": [
-          "voiture", "train", "bateau", "bus", "moto",
-          "chariot", "avion", "camion", "calèche", "sous-marin",
-          "train", "carrosse", "bateau", "quad", "roulotte",
-          "char", "traîneau", "avion", "bateau", "van"
+          {"nom": "voiture", "genre": "féminin"}, {"nom": "train", "genre": "masculin"}, {"nom": "bateau", "genre": "masculin"},
+          {"nom": "bus", "genre": "masculin"}, {"nom": "moto", "genre": "féminin"}, {"nom": "chariot", "genre": "masculin"},
+          {"nom": "avion", "genre": "masculin"}, {"nom": "camion", "genre": "masculin"}, {"nom": "calèche", "genre": "féminin"},
+          {"nom": "sous-marin", "genre": "masculin"}
         ]
       },
       "paysages": {
         "noms": [
-          "cimetière", "maison", "forêt", "village", "manoir",
-          "plaine", "cave", "lac", "montagne", "marais",
-          "île", "désert", "ville", "château", "vallée",
-          "cloître", "mine", "jardin", "pont", "tour"
+          {"nom": "cimetière", "genre": "masculin"}, {"nom": "maison", "genre": "féminin"}, {"nom": "forêt", "genre": "féminin"},
+          {"nom": "village", "genre": "masculin"}, {"nom": "manoir", "genre": "masculin"}, {"nom": "plaine", "genre": "féminin"},
+          {"nom": "cave", "genre": "féminin"}, {"nom": "lac", "genre": "masculin"}, {"nom": "montagne", "genre": "féminin"},
+          {"nom": "marais", "genre": "masculin"}
         ]
       },
       "accessoires": {
         "noms": [
-          "masque", "dague", "miroir", "livre", "lanterne",
-          "collier", "poupée", "cloche", "crâne", "chaîne",
-          "chandelier", "médaillon", "faux", "coffre", "horloge",
-          "pentagramme", "voile", "talisman", "clé", "journal"
+          {"nom": "masque", "genre": "masculin"}, {"nom": "dague", "genre": "féminin"}, {"nom": "miroir", "genre": "masculin"},
+          {"nom": "livre", "genre": "masculin"}, {"nom": "lanterne", "genre": "féminin"}, {"nom": "collier", "genre": "masculin"},
+          {"nom": "poupée", "genre": "féminin"}, {"nom": "cloche", "genre": "féminin"}, {"nom": "crâne", "genre": "masculin"},
+          {"nom": "chaîne", "genre": "féminin"}
+        ]
+      }
+    },
+    "Steampunk": {
+      "personnages": {
+        "noms": [
+          {"nom": "ingénieur", "genre": "masculin"}, {"nom": "aviatrice", "genre": "féminin"}, {"nom": "alchimiste", "genre": "masculin"},
+          {"nom": "pirate", "genre": "masculin"}, {"nom": "mécanicienne", "genre": "féminin"}, {"nom": "inventeur", "genre": "masculin"},
+          {"nom": "exploratrice", "genre": "féminin"}, {"nom": "soldat", "genre": "masculin"}, {"nom": "horloger", "genre": "masculin"},
+          {"nom": "artiste", "genre": "féminin"}
+        ]
+      },
+      "animaux": {
+        "noms": [
+          {"nom": "chien", "genre": "masculin"}, {"nom": "corbeau", "genre": "masculin"}, {"nom": "cheval", "genre": "masculin"},
+          {"nom": "araignée", "genre": "féminin"}, {"nom": "serpent", "genre": "masculin"}, {"nom": "aigle", "genre": "masculin"},
+          {"nom": "chat", "genre": "masculin"}, {"nom": "loup", "genre": "masculin"}, {"nom": "tigre", "genre": "masculin"},
+          {"nom": "faucon", "genre": "masculin"}
+        ]
+      },
+      "vehicules": {
+        "noms": [
+          {"nom": "dirigeable", "genre": "masculin"}, {"nom": "locomotive", "genre": "féminin"}, {"nom": "automobile", "genre": "féminin"},
+          {"nom": "sous-marin", "genre": "masculin"}, {"nom": "vélo", "genre": "masculin"}, {"nom": "char", "genre": "masculin"},
+          {"nom": "navire", "genre": "masculin"}, {"nom": "carrosse", "genre": "masculin"}, {"nom": "traîneau", "genre": "masculin"},
+          {"nom": "montgolfière", "genre": "féminin"}
+        ]
+      },
+      "paysages": {
+        "noms": [
+          {"nom": "usine", "genre": "féminin"}, {"nom": "ville", "genre": "féminin"}, {"nom": "port", "genre": "masculin"},
+          {"nom": "mine", "genre": "féminin"}, {"nom": "montagne", "genre": "féminin"}, {"nom": "forêt", "genre": "féminin"},
+          {"nom": "désert", "genre": "masculin"}, {"nom": "rivière", "genre": "féminin"}, {"nom": "canyon", "genre": "masculin"},
+          {"nom": "plateau", "genre": "masculin"}
+        ]
+      },
+      "accessoires": {
+        "noms": [
+          {"nom": "montre", "genre": "féminin"}, {"nom": "lunettes", "genre": "féminin"}, {"nom": "boussole", "genre": "féminin"},
+          {"nom": "clé", "genre": "féminin"}, {"nom": "pistolet", "genre": "masculin"}, {"nom": "engrenage", "genre": "masculin"},
+          {"nom": "lampe", "genre": "féminin"}, {"nom": "carte", "genre": "féminin"}, {"nom": "journal", "genre": "masculin"},
+          {"nom": "chapeau", "genre": "masculin"}
+        ]
+      }
+    },
+    "Cyberpunk": {
+      "personnages": {
+        "noms": [
+          {"nom": "hacker", "genre": "masculin"}, {"nom": "cyborg", "genre": "masculin"}, {"nom": "mercenaire", "genre": "masculin"},
+          {"nom": "technicienne", "genre": "féminin"}, {"nom": "samouraï", "genre": "masculin"}, {"nom": "pilote", "genre": "masculin"},
+          {"nom": "prophétesse", "genre": "féminin"}, {"nom": "gangster", "genre": "masculin"}, {"nom": "informateur", "genre": "masculin"},
+          {"nom": "assassin", "genre": "masculin"}
+        ]
+      },
+      "animaux": {
+        "noms": [
+          {"nom": "chien", "genre": "masculin"}, {"nom": "chat", "genre": "masculin"}, {"nom": "serpent", "genre": "masculin"},
+          {"nom": "corbeau", "genre": "masculin"}, {"nom": "loup", "genre": "masculin"}, {"nom": "aigle", "genre": "masculin"},
+          {"nom": "lézard", "genre": "masculin"}, {"nom": "poisson", "genre": "masculin"}, {"nom": "araignée", "genre": "féminin"},
+          {"nom": "faucon", "genre": "masculin"}
+        ]
+      },
+      "vehicules": {
+        "noms": [
+          {"nom": "moto", "genre": "féminin"}, {"nom": "voiture", "genre": "féminin"}, {"nom": "drône", "genre": "masculin"},
+          {"nom": "hoverboard", "genre": "masculin"}, {"nom": "vaisseau", "genre": "masculin"}, {"nom": "jet", "genre": "masculin"},
+          {"nom": "navette", "genre": "féminin"}, {"nom": "tank", "genre": "masculin"}, {"nom": "hélicoptère", "genre": "masculin"},
+          {"nom": "quad", "genre": "masculin"}
+        ]
+      },
+      "paysages": {
+        "noms": [
+          {"nom": "mégalopole", "genre": "féminin"}, {"nom": "ruelle", "genre": "féminin"}, {"nom": "usine", "genre": "féminin"},
+          {"nom": "dépotoir", "genre": "masculin"}, {"nom": "tour", "genre": "féminin"}, {"nom": "station", "genre": "féminin"},
+          {"nom": "quartier", "genre": "masculin"}, {"nom": "sous-sol", "genre": "masculin"}, {"nom": "pont", "genre": "masculin"},
+          {"nom": "égout", "genre": "masculin"}
+        ]
+      },
+      "accessoires": {
+        "noms": [
+          {"nom": "implant", "genre": "masculin"}, {"nom": "lunettes", "genre": "féminin"}, {"nom": "pistolet", "genre": "masculin"},
+          {"nom": "katana", "genre": "masculin"}, {"nom": "puce", "genre": "féminin"}, {"nom": "drone", "genre": "masculin"},
+          {"nom": "communicateur", "genre": "masculin"}, {"nom": "visor", "genre": "masculin"}, {"nom": "gants", "genre": "masculin"},
+          {"nom": "masque", "genre": "masculin"}
+        ]
+      }
+    },
+    "Médiéval": {
+      "personnages": {
+        "noms": [
+          {"nom": "chevalier", "genre": "masculin"}, {"nom": "princesse", "genre": "féminin"}, {"nom": "roi", "genre": "masculin"},
+          {"nom": "reine", "genre": "féminin"}, {"nom": "forgeron", "genre": "masculin"}, {"nom": "paysan", "genre": "masculin"},
+          {"nom": "archer", "genre": "masculin"}, {"nom": "servante", "genre": "féminin"}, {"nom": "moine", "genre": "masculin"},
+          {"nom": "voleur", "genre": "masculin"}
+        ]
+      },
+      "animaux": {
+        "noms": [
+          {"nom": "cheval", "genre": "masculin"}, {"nom": "loup", "genre": "masculin"}, {"nom": "aigle", "genre": "masculin"},
+          {"nom": "chien", "genre": "masculin"}, {"nom": "chat", "genre": "masculin"}, {"nom": "corbeau", "genre": "masculin"},
+          {"nom": "cerf", "genre": "masculin"}, {"nom": "ours", "genre": "masculin"}, {"nom": "faucon", "genre": "masculin"},
+          {"nom": "sanglier", "genre": "masculin"}
+        ]
+      },
+      "vehicules": {
+        "noms": [
+          {"nom": "charrette", "genre": "féminin"}, {"nom": "cheval", "genre": "masculin"}, {"nom": "bateau", "genre": "masculin"},
+          {"nom": "carrosse", "genre": "masculin"}, {"nom": "diligence", "genre": "féminin"}, {"nom": "char", "genre": "masculin"},
+          {"nom": "radeau", "genre": "masculin"}, {"nom": "litière", "genre": "féminin"}, {"nom": "traîneau", "genre": "masculin"},
+          {"nom": "galère", "genre": "féminin"}
+        ]
+      },
+      "paysages": {
+        "noms": [
+          {"nom": "château", "genre": "masculin"}, {"nom": "forêt", "genre": "féminin"}, {"nom": "village", "genre": "masculin"},
+          {"nom": "montagne", "genre": "féminin"}, {"nom": "plaine", "genre": "féminin"}, {"nom": "rivière", "genre": "féminin"},
+          {"nom": "vallée", "genre": "féminin"}, {"nom": "colline", "genre": "féminin"}, {"nom": "champ", "genre": "masculin"},
+          {"nom": "marais", "genre": "masculin"}
+        ]
+      },
+      "accessoires": {
+        "noms": [
+          {"nom": "épée", "genre": "féminin"}, {"nom": "bouclier", "genre": "masculin"}, {"nom": "arc", "genre": "masculin"},
+          {"nom": "flèche", "genre": "féminin"}, {"nom": "heaume", "genre": "masculin"}, {"nom": "cape", "genre": "féminin"},
+          {"nom": "bourse", "genre": "féminin"}, {"nom": "torche", "genre": "féminin"}, {"nom": "anneau", "genre": "masculin"},
+          {"nom": "calice", "genre": "masculin"}
+        ]
+      }
+    },
+    "Post-apocalyptique": {
+      "personnages": {
+        "noms": [
+          {"nom": "survivant", "genre": "masculin"}, {"nom": "chasseuse", "genre": "féminin"}, {"nom": "mutant", "genre": "masculin"},
+          {"nom": "pilleur", "genre": "masculin"}, {"nom": "guérisseuse", "genre": "féminin"}, {"nom": "soldat", "genre": "masculin"},
+          {"nom": "nomade", "genre": "masculin"}, {"nom": "éclaireuse", "genre": "féminin"}, {"nom": "mécanicien", "genre": "masculin"},
+          {"nom": "prophète", "genre": "masculin"}
+        ]
+      },
+      "animaux": {
+        "noms": [
+          {"nom": "loup", "genre": "masculin"}, {"nom": "chien", "genre": "masculin"}, {"nom": "corbeau", "genre": "masculin"},
+          {"nom": "serpent", "genre": "masculin"}, {"nom": "araignée", "genre": "féminin"}, {"nom": "rat", "genre": "masculin"},
+          {"nom": "aigle", "genre": "masculin"}, {"nom": "scorpion", "genre": "masculin"}, {"nom": "faucon", "genre": "masculin"},
+          {"nom": "coyote", "genre": "masculin"}
+        ]
+      },
+      "vehicules": {
+        "noms": [
+          {"nom": "camion", "genre": "masculin"}, {"nom": "moto", "genre": "féminin"}, {"nom": "buggy", "genre": "masculin"},
+          {"nom": "char", "genre": "masculin"}, {"nom": "véhicule", "genre": "masculin"}, {"nom": "jeep", "genre": "féminin"},
+          {"nom": "tank", "genre": "masculin"}, {"nom": "quad", "genre": "masculin"}, {"nom": "traîneau", "genre": "masculin"},
+          {"nom": "raft", "genre": "masculin"}
+        ]
+      },
+      "paysages": {
+        "noms": [
+          {"nom": "désert", "genre": "masculin"}, {"nom": "ville", "genre": "féminin"}, {"nom": "ruine", "genre": "féminin"},
+          {"nom": "wasteland", "genre": "masculin"}, {"nom": "canyon", "genre": "masculin"}, {"nom": "marais", "genre": "masculin"},
+          {"nom": "plaine", "genre": "féminin"}, {"nom": "montagne", "genre": "féminin"}, {"nom": "cratère", "genre": "masculin"},
+          {"nom": "forêt", "genre": "féminin"}
+        ]
+      },
+      "accessoires": {
+        "noms": [
+          {"nom": "fusil", "genre": "masculin"}, {"nom": "masque", "genre": "masculin"}, {"nom": "couteau", "genre": "masculin"},
+          {"nom": "radio", "genre": "féminin"}, {"nom": "lampe", "genre": "féminin"}, {"nom": "bouteille", "genre": "féminin"},
+          {"nom": "sac", "genre": "masculin"}, {"nom": "carte", "genre": "féminin"}, {"nom": "gants", "genre": "masculin"},
+          {"nom": "boussole", "genre": "féminin"}
+        ]
+      }
+    },
+    "Western": {
+      "personnages": {
+        "noms": [
+          {"nom": "cowboy", "genre": "masculin"}, {"nom": "shérif", "genre": "masculin"}, {"nom": "bandit", "genre": "masculin"},
+          {"nom": "danseuse", "genre": "féminin"}, {"nom": "chasseur", "genre": "masculin"}, {"nom": "fermier", "genre": "masculin"},
+          {"nom": "pionnière", "genre": "féminin"}, {"nom": "mineur", "genre": "masculin"}, {"nom": "barman", "genre": "masculin"},
+          {"nom": "voleuse", "genre": "féminin"}
+        ]
+      },
+      "animaux": {
+        "noms": [
+          {"nom": "cheval", "genre": "masculin"}, {"nom": "vache", "genre": "féminin"}, {"nom": "chien", "genre": "masculin"},
+          {"nom": "aigle", "genre": "masculin"}, {"nom": "serpent", "genre": "masculin"}, {"nom": "loup", "genre": "masculin"},
+          {"nom": "corbeau", "genre": "masculin"}, {"nom": "bison", "genre": "masculin"}, {"nom": "faucon", "genre": "masculin"},
+          {"nom": "coyote", "genre": "masculin"}
+        ]
+      },
+      "vehicules": {
+        "noms": [
+          {"nom": "diligence", "genre": "féminin"}, {"nom": "cheval", "genre": "masculin"}, {"nom": "chariot", "genre": "masculin"},
+          {"nom": "train", "genre": "masculin"}, {"nom": "charrette", "genre": "féminin"}, {"nom": "calèche", "genre": "féminin"},
+          {"nom": "caravane", "genre": "féminin"}, {"nom": "bateau", "genre": "masculin"}, {"nom": "traîneau", "genre": "masculin"},
+          {"nom": "vélo", "genre": "masculin"}
+        ]
+      },
+      "paysages": {
+        "noms": [
+          {"nom": "désert", "genre": "masculin"}, {"nom": "canyon", "genre": "masculin"}, {"nom": "plaine", "genre": "féminin"},
+          {"nom": "montagne", "genre": "féminin"}, {"nom": "rivière", "genre": "féminin"}, {"nom": "village", "genre": "masculin"},
+          {"nom": "forêt", "genre": "féminin"}, {"nom": "colline", "genre": "féminin"}, {"nom": "vallée", "genre": "féminin"},
+          {"nom": "prairie", "genre": "féminin"}
+        ]
+      },
+      "accessoires": {
+        "noms": [
+          {"nom": "revolver", "genre": "masculin"}, {"nom": "chapeau", "genre": "masculin"}, {"nom": "lasso", "genre": "masculin"},
+          {"nom": "bottes", "genre": "féminin"}, {"nom": "éperons", "genre": "masculin"}, {"nom": "couteau", "genre": "masculin"},
+          {"nom": "lanterne", "genre": "féminin"}, {"nom": "carte", "genre": "féminin"}, {"nom": "bourse", "genre": "féminin"},
+          {"nom": "ceinture", "genre": "féminin"}
+        ]
+      }
+    },
+    "Mythologie": {
+      "personnages": {
+        "noms": [
+          {"nom": "dieu", "genre": "masculin"}, {"nom": "déesse", "genre": "féminin"}, {"nom": "héros", "genre": "masculin"},
+          {"nom": "néréide", "genre": "féminin"}, {"nom": "titan", "genre": "masculin"}, {"nom": "oracle", "genre": "féminin"},
+          {"nom": "guerrier", "genre": "masculin"}, {"nom": "nymphe", "genre": "féminin"}, {"nom": "monstre", "genre": "masculin"},
+          {"nom": "prêtresse", "genre": "féminin"}
+        ]
+      },
+      "animaux": {
+        "noms": [
+          {"nom": "dragon", "genre": "masculin"}, {"nom": "phénix", "genre": "masculin"}, {"nom": "licorne", "genre": "féminin"},
+          {"nom": "serpent", "genre": "masculin"}, {"nom": "aigle", "genre": "masculin"}, {"nom": "loup", "genre": "masculin"},
+          {"nom": "cheval", "genre": "masculin"}, {"nom": "cerbère", "genre": "masculin"}, {"nom": "griffon", "genre": "masculin"},
+          {"nom": "hydre", "genre": "féminin"}
+        ]
+      },
+      "vehicules": {
+        "noms": [
+          {"nom": "char", "genre": "masculin"}, {"nom": "bateau", "genre": "masculin"}, {"nom": "traîneau", "genre": "masculin"},
+          {"nom": "litière", "genre": "féminin"}, {"nom": "drakkar", "genre": "masculin"}, {"nom": "galère", "genre": "féminin"},
+          {"nom": "navire", "genre": "masculin"}, {"nom": "cheval", "genre": "masculin"}, {"nom": "charrette", "genre": "féminin"},
+          {"nom": "radeau", "genre": "masculin"}
+        ]
+      },
+      "paysages": {
+        "noms": [
+          {"nom": "montagne", "genre": "féminin"}, {"nom": "temple", "genre": "masculin"}, {"nom": "forêt", "genre": "féminin"},
+          {"nom": "plaine", "genre": "féminin"}, {"nom": "rivière", "genre": "féminin"}, {"nom": "caverne", "genre": "féminin"},
+          {"nom": "lac", "genre": "masculin"}, {"nom": "volcan", "genre": "masculin"}, {"nom": "île", "genre": "féminin"},
+          {"nom": "vallée", "genre": "féminin"}
+        ]
+      },
+      "accessoires": {
+        "noms": [
+          {"nom": "trident", "genre": "masculin"}, {"nom": "lyre", "genre": "féminin"}, {"nom": "bouclier", "genre": "masculin"},
+          {"nom": "épée", "genre": "féminin"}, {"nom": "casque", "genre": "masculin"}, {"nom": "sceptre", "genre": "masculin"},
+          {"nom": "amulette", "genre": "féminin"}, {"nom": "calice", "genre": "masculin"}, {"nom": "couronne", "genre": "féminin"},
+          {"nom": "flèche", "genre": "féminin"}
+        ]
+      }
+    },
+    "Surnaturel": {
+      "personnages": {
+        "noms": [
+          {"nom": "fantôme", "genre": "masculin"}, {"nom": "médium", "genre": "féminin"}, {"nom": "chasseur", "genre": "masculin"},
+          {"nom": "sorcière", "genre": "féminin"}, {"nom": "démon", "genre": "masculin"}, {"nom": "ange", "genre": "masculin"},
+          {"nom": "prophète", "genre": "masculin"}, {"nom": "nécromancienne", "genre": "féminin"}, {"nom": "vampire", "genre": "masculin"},
+          {"nom": "esprit", "genre": "masculin"}
+        ]
+      },
+      "animaux": {
+        "noms": [
+          {"nom": "loup", "genre": "masculin"}, {"nom": "corbeau", "genre": "masculin"}, {"nom": "chat", "genre": "masculin"},
+          {"nom": "serpent", "genre": "masculin"}, {"nom": "araignée", "genre": "féminin"}, {"nom": "chien", "genre": "masculin"},
+          {"nom": "aigle", "genre": "masculin"}, {"nom": "faucon", "genre": "masculin"}, {"nom": "chouette", "genre": "féminin"},
+          {"nom": "cerf", "genre": "masculin"}
+        ]
+      },
+      "vehicules": {
+        "noms": [
+          {"nom": "voiture", "genre": "féminin"}, {"nom": "moto", "genre": "féminin"}, {"nom": "bateau", "genre": "masculin"},
+          {"nom": "charrette", "genre": "féminin"}, {"nom": "traîneau", "genre": "masculin"}, {"nom": "calèche", "genre": "féminin"},
+          {"nom": "avion", "genre": "masculin"}, {"nom": "camion", "genre": "masculin"}, {"nom": "char", "genre": "masculin"},
+          {"nom": "raft", "genre": "masculin"}
+        ]
+      },
+      "paysages": {
+        "noms": [
+          {"nom": "maison", "genre": "féminin"}, {"nom": "forêt", "genre": "féminin"}, {"nom": "cimetière", "genre": "masculin"},
+          {"nom": "village", "genre": "masculin"}, {"nom": "manoir", "genre": "masculin"}, {"nom": "lac", "genre": "masculin"},
+          {"nom": "montagne", "genre": "féminin"}, {"nom": "plaine", "genre": "féminin"}, {"nom": "marais", "genre": "masculin"},
+          {"nom": "caverne", "genre": "féminin"}
+        ]
+      },
+      "accessoires": {
+        "noms": [
+          {"nom": "miroir", "genre": "masculin"}, {"nom": "amulette", "genre": "féminin"}, {"nom": "livre", "genre": "masculin"},
+          {"nom": "bougie", "genre": "féminin"}, {"nom": "pierre", "genre": "féminin"}, {"nom": "collier", "genre": "masculin"},
+          {"nom": "poupée", "genre": "féminin"}, {"nom": "crâne", "genre": "masculin"}, {"nom": "pendule", "genre": "masculin"},
+          {"nom": "talisman", "genre": "masculin"}
         ]
       }
     }
