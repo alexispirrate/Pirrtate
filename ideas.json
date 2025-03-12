@@ -1,100 +1,220 @@
 {
   "styles": {
     "Fantasy": {
-      "personnages": [
-        "un sorcier excentrique", "une elfe mystérieuse", "un dragon gardien", "un nain forgeron", "une fée guérisseuse",
-        "un chevalier errant", "un orc guerrier", "une sorcière des bois", "un gnome inventif", "un troll sage",
-        "une princesse en exil", "un paladin sacré", "un barde voyageur", "un centaure explorateur", "un démon charmeur",
-        "une dryade protectrice", "un roi déchu", "un voleur agile", "une prêtresse lunaire", "un esprit ancien"
-      ],
-      "animaux": [
-        "un griffon majestueux", "un loup enchanté", "une licorne brillante", "un aigle royal", "un serpent magique",
-        "un ours spirituel", "un chat spectral", "un cerf lumineux", "un corbeau divin", "un tigre runique",
-        "une chouette sage", "un phénix renaissant", "un lynx mystique", "un crocodile sacré", "un écureuil féerique",
-        "un dragonnet joueur", "un cheval ailé", "un scorpion enchanté", "une tortue mystique", "un renard astucieux"
-      ],
-      "vehicules": [
-        "un char volant", "une carriole magique", "un bateau spectral", "un tapis volant", "une diligence enchantée",
-        "un traîneau runique", "un chariot de guerre", "un radeau flottant", "une montgolfière magique", "un drakkar enchanté",
-        "une litière royale", "un char à griffons", "un traîneau de glace", "un bateau-dragon", "une calèche céleste",
-        "un chariot de cristal", "un radeau d’osier", "une gondole enchantée", "un carrosse magique", "un traîneau de bois"
-      ],
-      "paysages": [
-        "une forêt enchantée", "une montagne de cristal", "un lac scintillant", "une plaine féerique", "une vallée cachée",
-        "un désert de sable doré", "une caverne lumineuse", "une rivière sacrée", "un plateau mystique", "une île flottante",
-        "une jungle luxuriante", "un canyon profond", "une steppe verdoyante", "un glacier enchanté", "une falaise abrupte",
-        "un marais luminescent", "une prairie étoilée", "un volcan endormi", "une gorge enchantée", "un archipel magique"
-      ],
-      "accessoires": [
-        "un bâton magique", "une couronne d’or", "un collier runique", "un anneau enchanté", "une dague sacrée",
-        "un bouclier lumineux", "une amulette de protection", "un grimoire ancien", "une flûte mystique", "une cape invisible",
-        "un sceptre royal", "un miroir divin", "une bourse enchantée", "une lanterne magique", "un pendentif étoilé",
-        "une ceinture de force", "un médaillon brisé", "une plume d’ange", "un cor de guerre", "un talisman de puissance"
-      ]
+      "personnages": {
+        "noms": [
+          "sorcier", "elfe", "dragon", "nain", "fée",
+          "chevalier", "orc", "sorcière", "gnome", "troll",
+          "princesse", "paladin", "barde", "centaure", "démon",
+          "dryade", "roi", "voleur", "prêtresse", "esprit"
+        ],
+        "adjectifs": [
+          "excentrique", "mystérieuse", "gardien", "forgeron", "guérisseuse",
+          "errant", "guerrier", "des bois", "inventif", "sage",
+          "en exil", "sacré", "voyageur", "explorateur", "charmeur",
+          "protectrice", "déchu", "agile", "lunaire", "ancien"
+        ]
+      },
+      "animaux": {
+        "noms": [
+          "griffon", "loup", "licorne", "aigle", "serpent",
+          "ours", "chat", "cerf", "corbeau", "tigre",
+          "chouette", "phénix", "lynx", "crocodile", "écureuil",
+          "dragonnet", "cheval", "scorpion", "tortue", "renard"
+        ],
+        "adjectifs": [
+          "majestueux", "enchanté", "brillante", "royal", "magique",
+          "spirituel", "spectral", "lumineux", "divin", "runique",
+          "sage", "renaissant", "mystique", "sacré", "féerique",
+          "joueur", "ailé", "enchanté", "mystique", "astucieux"
+        ]
+      },
+      "vehicules": {
+        "noms": [
+          "char", "carriole", "bateau", "tapis", "diligence",
+          "traîneau", "chariot", "radeau", "montgolfière", "drakkar",
+          "litière", "char", "traîneau", "bateau-dragon", "calèche",
+          "chariot", "radeau", "gondole", "carrosse", "traîneau"
+        ],
+        "adjectifs": [
+          "volant", "magique", "spectral", "volant", "enchantée",
+          "runique", "de guerre", "flottant", "magique", "enchanté",
+          "royale", "à griffons", "de glace", "dragon", "céleste",
+          "de cristal", "d’osier", "enchantée", "magique", "de bois"
+        ]
+      },
+      "paysages": {
+        "noms": [
+          "forêt", "montagne", "lac", "plaine", "vallée",
+          "désert", "caverne", "rivière", "plateau", "île",
+          "jungle", "canyon", "steppe", "glacier", "falaise",
+          "marais", "prairie", "volcan", "gorge", "archipel"
+        ],
+        "adjectifs": [
+          "enchantée", "de cristal", "scintillant", "féerique", "cachée",
+          "de sable doré", "lumineuse", "sacrée", "mystique", "flottante",
+          "luxuriante", "profond", "verdoyante", "enchanté", "abrupte",
+          "luminescent", "étoilée", "endormi", "enchantée", "magique"
+        ]
+      },
+      "accessoires": {
+        "noms": [
+          "bâton", "couronne", "collier", "anneau", "dague",
+          "bouclier", "amulette", "grimoire", "flûte", "cape",
+          "sceptre", "miroir", "bourse", "lanterne", "pendentif",
+          "ceinture", "médaillon", "plume", "cor", "talisman"
+        ],
+        "adjectifs": [
+          "magique", "d’or", "runique", "enchanté", "sacrée",
+          "lumineux", "de protection", "ancien", "mystique", "invisible",
+          "royal", "divin", "enchantée", "magique", "étoilé",
+          "de force", "brisé", "d’ange", "de guerre", "de puissance"
+        ]
+      }
     },
     "Science-fiction": {
-      "personnages": [
-        "un pilote interstellaire", "un cyborg explorateur", "une scientifique alien", "un mercenaire spatial", "un androïde rebelle",
-        "un capitaine de vaisseau", "un hacker galactique", "une colonne martienne", "un robot sentinelle", "un clone mutant",
-        "une ambassadrice extraterrestre", "un ingénieur spatial", "un pilote de drone", "un explorateur de temps", "un cyborg guerrier",
-        "une télépathe alien", "un pilote de chasse", "un technicien nomade", "un savant excentrique", "un robot de combat"
-      ],
-      "animaux": [
-        "une créature mutante", "un robot-animal", "un lézard spatial", "un oiseau cybernétique", "un poisson luminescent",
-        "un singe bionique", "un chien robotique", "un aigle mécanique", "un serpent électrique", "un chat holographique",
-        "une tortue spatiale", "un faucon cyber", "un ours robot", "un corbeau artificiel", "un loup mécanique",
-        "une grenouille alien", "un dragon robotique", "un poisson volant", "un scorpion bionique", "un papillon laser"
-      ],
-      "vehicules": [
-        "un vaisseau spatial", "un hoverbike futuriste", "une navette orbitale", "un tank magnétique", "un drône de combat",
-        "un sous-marin spatial", "une moto antigravité", "un planeur ionique", "un rover lunaire", "un hélicoptère robot",
-        "un cargo interstellaire", "un buggy martien", "un jet supersonique", "un vaisseau de reconnaissance", "un glider solaire",
-        "un train magnétique", "un quad volant", "un pod de course", "un module d’exploration", "un scooter spatial"
-      ],
-      "paysages": [
-        "une planète désertique", "une ville flottante", "un astéroïde habitable", "une lune gelée", "une nébuleuse colorée",
-        "un canyon martien", "une station orbitale", "un océan de gaz", "une jungle extraterrestre", "un désert de cristal",
-        "une plaine radioactive", "une montagne volcanique", "un lac de mercure", "une forêt artificielle", "un plateau lunaire",
-        "un marais toxique", "une ville sous-marine", "un cratère d’impact", "une plaine stellaire", "un récif spatial"
-      ],
-      "accessoires": [
-        "un pistolet laser", "un casque holographique", "un communicateur quantique", "un exosquelette", "une puce neuronale",
-        "un scanner biométrique", "une clé d’hyperespace", "un générateur portable", "une visière thermique", "un disque de données",
-        "un bracelet de téléportation", "un module de survie", "une arme à plasma", "un traducteur universel", "un drone de poche",
-        "une montre chronospatiale", "un bouclier énergétique", "un injecteur nanite", "une carte stellaire", "un terminal portable"
-      ]
+      "personnages": {
+        "noms": [
+          "pilote", "cyborg", "scientifique", "mercenaire", "androïde",
+          "capitaine", "hacker", "colonne", "robot", "clone",
+          "ambassadrice", "ingénieur", "pilote", "explorateur", "cyborg",
+          "télépathe", "pilote", "technicien", "savant", "robot"
+        ],
+        "adjectifs": [
+          "interstellaire", "explorateur", "alien", "spatial", "rebelle",
+          "de vaisseau", "galactique", "martienne", "sentinelle", "mutant",
+          "extraterrestre", "spatial", "de drone", "de temps", "guerrier",
+          "alien", "de chasse", "nomade", "excentrique", "de combat"
+        ]
+      },
+      "animaux": {
+        "noms": [
+          "créature", "robot-animal", "lézard", "oiseau", "poisson",
+          "singe", "chien", "aigle", "serpent", "chat",
+          "tortue", "faucon", "ours", "corbeau", "loup",
+          "grenouille", "dragon", "poisson", "scorpion", "papillon"
+        ],
+        "adjectifs": [
+          "mutante", "robotique", "spatial", "cybernétique", "luminescent",
+          "bionique", "robotique", "mécanique", "électrique", "holographique",
+          "spatiale", "cyber", "robot", "artificiel", "mécanique",
+          "alien", "robotique", "volant", "bionique", "laser"
+        ]
+      },
+      "vehicules": {
+        "noms": [
+          "vaisseau", "hoverbike", "navette", "tank", "drône",
+          "sous-marin", "moto", "planeur", "rover", "hélicoptère",
+          "cargo", "buggy", "jet", "vaisseau", "glider",
+          "train", "quad", "pod", "module", "scooter"
+        ],
+        "adjectifs": [
+          "spatial", "futuriste", "orbitale", "magnétique", "de combat",
+          "spatial", "antigravité", "ionique", "lunaire", "robot",
+          "interstellaire", "martien", "supersonique", "de reconnaissance", "solaire",
+          "magnétique", "volant", "de course", "d’exploration", "spatial"
+        ]
+      },
+      "paysages": {
+        "noms": [
+          "planète", "ville", "astéroïde", "lune", "nébuleuse",
+          "canyon", "station", "océan", "jungle", "désert",
+          "plaine", "montagne", "lac", "forêt", "plateau",
+          "marais", "ville", "cratère", "plaine", "récif"
+        ],
+        "adjectifs": [
+          "désertique", "flottante", "habitable", "gelée", "colorée",
+          "martien", "orbitale", "de gaz", "extraterrestre", "de cristal",
+          "radioactive", "volcanique", "de mercure", "artificielle", "lunaire",
+          "toxique", "sous-marine", "d’impact", "stellaire", "spatial"
+        ]
+      },
+      "accessoires": {
+        "noms": [
+          "pistolet", "casque", "communicateur", "exosquelette", "puce",
+          "scanner", "clé", "générateur", "visière", "disque",
+          "bracelet", "module", "arme", "traducteur", "drone",
+          "montre", "bouclier", "injecteur", "carte", "terminal"
+        ],
+        "adjectifs": [
+          "laser", "holographique", "quantique", "spatial", "neuronale",
+          "biométrique", "d’hyperespace", "portable", "thermique", "de données",
+          "de téléportation", "de survie", "à plasma", "universel", "de poche",
+          "chronospatiale", "énergétique", "nanite", "stellaire", "portable"
+        ]
+      }
     },
     "Horreur": {
-      "personnages": [
-        "un fantôme vengeur", "un tueur masqué", "une sorcière maléfique", "un zombie affamé", "un vampire assoiffé",
-        "un démon possédé", "un clown terrifiant", "une poupée hantée", "un esprit tourmenté", "un monstre des ombres",
-        "une veuve noire", "un prêtre maudit", "un loup-garou sauvage", "un nécromancien sinistre", "une banshee hurlante",
-        "un chasseur de têtes", "un squelette animé", "un sorcier noir", "un esprit vengeur", "un diable cornu"
-      ],
-      "animaux": [
-        "un corbeau sinistre", "une araignée géante", "un chien démoniaque", "un rat mutant", "un chat spectral",
-        "un serpent venimeux", "un loup maudit", "un oiseau de malheur", "un scorpion noir", "un crapaud toxique",
-        "une chauve-souris vampire", "un corbeau de la mort", "un chien fantôme", "un iguane monstrueux", "un hibou hurlant",
-        "une mouche carnivore", "un ver géant", "un aigle décharné", "un serpent à deux têtes", "un scorpion infernal"
-      ],
-      "vehicules": [
-        "une voiture hantée", "un train abandonné", "un bateau maudit", "un bus spectral", "une moto démoniaque",
-        "un chariot de l’enfer", "un avion crashé", "un camion fantôme", "une calèche hantée", "un sous-marin maudit",
-        "un train de la mort", "un carrosse noir", "un bateau pirate", "un quad infernal", "une roulotte maudite",
-        "un char spectral", "un traîneau hanté", "un avion abandonné", "un bateau à vapeur", "un van possédé"
-      ],
-      "paysages": [
-        "un cimetière brumeux", "une maison en ruine", "une forêt maudite", "un village abandonné", "un manoir hanté",
-        "une plaine désolée", "une cave sombre", "un lac de sang", "une montagne lugubre", "un marais putride",
-        "une île maudite", "un désert spectral", "une ville fantôme", "un château en ruine", "une vallée de brume",
-        "un cloître abandonné", "une mine effondrée", "un jardin hanté", "un pont brisé", "une tour maudite"
-      ],
-      "accessoires": [
-        "un masque terrifiant", "une dague ensanglantée", "un miroir maudit", "un livre interdit", "une lanterne éteinte",
-        "un collier de morts", "une poupée possédée", "une cloche funèbre", "un crâne gravé", "une chaîne rouillée",
-        "un chandelier éteint", "un médaillon maudit", "une faux hantée", "un coffre scellé", "une horloge arrêtée",
-        "un pentagramme gravé", "un voile noir", "un talisman démoniaque", "une clé rouillée", "un journal ensorcelé"
-      ]
+      "personnages": {
+        "noms": [
+          "fantôme", "tueur", "sorcière", "zombie", "vampire",
+          "démon", "clown", "poupée", "esprit", "monstre",
+          "veuve", "prêtre", "loup-garou", "nécromancien", "banshee",
+          "chasseur", "squelette", "sorcier", "esprit", "diable"
+        ],
+        "adjectifs": [
+          "vengeur", "masqué", "maléfique", "affamé", "assoiffé",
+          "possédé", "terrifiant", "hantée", "tourmenté", "des ombres",
+          "noire", "maudit", "sauvage", "sinistre", "hurlante",
+          "de têtes", "animé", "noir", "vengeur", "cornu"
+        ]
+      },
+      "animaux": {
+        "noms": [
+          "corbeau", "araignée", "chien", "rat", "chat",
+          "serpent", "loup", "oiseau", "scorpion", "crapaud",
+          "chauve-souris", "corbeau", "chien", "iguane", "hibou",
+          "mouche", "ver", "aigle", "serpent", "scorpion"
+        ],
+        "adjectifs": [
+          "sinistre", "géante", "démoniaque", "mutant", "spectral",
+          "venimeux", "maudit", "de malheur", "noir", "toxique",
+          "vampire", "de la mort", "fantôme", "monstrueux", "hurlant",
+          "carnivore", "géant", "décharné", "à deux têtes", "infernal"
+        ]
+      },
+      "vehicules": {
+        "noms": [
+          "voiture", "train", "bateau", "bus", "moto",
+          "chariot", "avion", "camion", "calèche", "sous-marin",
+          "train", "carrosse", "bateau", "quad", "roulotte",
+          "char", "traîneau", "avion", "bateau", "van"
+        ],
+        "adjectifs": [
+          "hantée", "abandonné", "maudit", "spectral", "démoniaque",
+          "de l’enfer", "crashé", "fantôme", "hantée", "maudit",
+          "de la mort", "noir", "pirate", "infernal", "maudite",
+          "spectral", "hanté", "abandonné", "à vapeur", "possédé"
+        ]
+      },
+      "paysages": {
+        "noms": [
+          "cimetière", "maison", "forêt", "village", "manoir",
+          "plaine", "cave", "lac", "montagne", "marais",
+          "île", "désert", "ville", "château", "vallée",
+          "cloître", "mine", "jardin", "pont", "tour"
+        ],
+        "adjectifs": [
+          "brumeux", "en ruine", "maudite", "abandonné", "hanté",
+          "désolée", "sombre", "de sang", "lugubre", "putride",
+          "maudite", "spectral", "fantôme", "en ruine", "de brume",
+          "abandonné", "effondrée", "hanté", "brisé", "maudite"
+        ]
+      },
+      "accessoires": {
+        "noms": [
+          "masque", "dague", "miroir", "livre", "lanterne",
+          "collier", "poupée", "cloche", "crâne", "chaîne",
+          "chandelier", "médaillon", "faux", "coffre", "horloge",
+          "pentagramme", "voile", "talisman", "clé", "journal"
+        ],
+        "adjectifs": [
+          "terrifiant", "ensanglantée", "maudit", "interdit", "éteinte",
+          "de morts", "possédée", "funèbre", "gravé", "rouillée",
+          "éteint", "maudit", "hantée", "scellé", "arrêtée",
+          "gravé", "noir", "démoniaque", "rouillée", "ensorcelé"
+        ]
+      }
     }
   }
 }
