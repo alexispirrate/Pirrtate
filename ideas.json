@@ -1,0 +1,6 @@
+{
+  "genres": ["Fantasy", "Science-fiction", "Horreur", "Romance"],
+  "lieux": ["une forêt sombre", "une ville futuriste", "un château hanté"],
+  "personnages": ["un sorcier excentrique", "un robot rebelle"],
+  "objets": ["une épée magique", "un journal mystérieux"]
+}
