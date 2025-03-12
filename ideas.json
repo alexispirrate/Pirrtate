@@ -51,11 +51,11 @@
         ]
       },
       "animaux": {
-  "noms": [
-    {"nom": "griffon", "genre": "masculin"}, {"nom": "loup", "genre": "masculin"}, {"nom": "licorne", "genre": "féminin"},
-    {"nom": "aigle", "genre": "masculin"}, {"nom": "serpent", "genre": "masculin"}, {"nom": "ours", "genre": "masculin"},
-    {"nom": "chat", "genre": "masculin"}, {"nom": "cerf", "genre": "masculin"}, {"nom": "corbeau", "genre": "masculin"},
-    {"nom": "tigre", "genre": "masculin"}, {"nom": "dragonnet", "genre": "masculin"}, {"nom": "phénix", "genre": "masculin"},
+        "noms": [
+          {"nom": "griffon", "genre": "masculin"}, {"nom": "loup", "genre": "masculin"}, {"nom": "licorne", "genre": "féminin"},
+          {"nom": "aigle", "genre": "masculin"}, {"nom": "serpent", "genre": "masculin"}, {"nom": "ours", "genre": "masculin"},
+          {"nom": "chat", "genre": "masculin"}, {"nom": "cerf", "genre": "masculin"}, {"nom": "corbeau", "genre": "masculin"},
+          {"nom": "tigre", "genre": "masculin"}, {"nom": "dragonnet", "genre": "masculin"}, {"nom": "phénix", "genre": "masculin"},
     {"nom": "cheval", "genre": "masculin"}, {"nom": "scorpion", "genre": "masculin"}, {"nom": "tortue", "genre": "féminin"},
     {"nom": "renard", "genre": "masculin"}, {"nom": "chouette", "genre": "féminin"}, {"nom": "lynx", "genre": "masculin"},
     {"nom": "crocodile", "genre": "masculin"}, {"nom": "écureuil", "genre": "masculin"}, {"nom": "hydre", "genre": "féminin"},
