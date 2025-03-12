@@ -1,4 +1,17 @@
 {
+  "adjectifs": [
+    "excentrique", "mystérieux", "gardien", "forgeron", "guérisseur",
+    "errant", "guerrier", "sauvage", "inventif", "sage",
+    "exilé", "sacré", "voyageur", "explorateur", "charmeur",
+    "protecteur", "déchu", "agile", "lunaire", "ancien",
+    "majestueux", "enchanté", "brillant", "royal", "magique",
+    "spirituel", "spectral", "lumineux", "divin", "runique",
+    "renaissant", "mystique", "féerique", "joueur", "ailé",
+    "interstellaire", "cybernétique", "alien", "spatial", "rebelle",
+    "galactique", "martien", "mutant", "bionique", "holographique",
+    "vengeur", "maléfique", "affamé", "assoiffé", "possédé",
+    "terrifiant", "tourmenté", "sinistre", "hurlant", "maudit"
+  ],
   "styles": {
     "Fantasy": {
       "personnages": {
@@ -7,12 +20,6 @@
           "chevalier", "orc", "sorcière", "gnome", "troll",
           "princesse", "paladin", "barde", "centaure", "démon",
           "dryade", "roi", "voleur", "prêtresse", "esprit"
-        ],
-        "adjectifs": [
-          "excentrique", "mystérieuse", "gardien", "forgeron", "guérisseuse",
-          "errant", "guerrier", "des bois", "inventif", "sage",
-          "en exil", "sacré", "voyageur", "explorateur", "charmeur",
-          "protectrice", "déchu", "agile", "lunaire", "ancien"
         ]
       },
       "animaux": {
@@ -21,12 +28,6 @@
           "ours", "chat", "cerf", "corbeau", "tigre",
           "chouette", "phénix", "lynx", "crocodile", "écureuil",
           "dragonnet", "cheval", "scorpion", "tortue", "renard"
-        ],
-        "adjectifs": [
-          "majestueux", "enchanté", "brillante", "royal", "magique",
-          "spirituel", "spectral", "lumineux", "divin", "runique",
-          "sage", "renaissant", "mystique", "sacré", "féerique",
-          "joueur", "ailé", "enchanté", "mystique", "astucieux"
         ]
       },
       "vehicules": {
@@ -35,12 +36,6 @@
           "traîneau", "chariot", "radeau", "montgolfière", "drakkar",
           "litière", "char", "traîneau", "bateau-dragon", "calèche",
           "chariot", "radeau", "gondole", "carrosse", "traîneau"
-        ],
-        "adjectifs": [
-          "volant", "magique", "spectral", "volant", "enchantée",
-          "runique", "de guerre", "flottant", "magique", "enchanté",
-          "royale", "à griffons", "de glace", "dragon", "céleste",
-          "de cristal", "d’osier", "enchantée", "magique", "de bois"
         ]
       },
       "paysages": {
@@ -49,12 +44,6 @@
           "désert", "caverne", "rivière", "plateau", "île",
           "jungle", "canyon", "steppe", "glacier", "falaise",
           "marais", "prairie", "volcan", "gorge", "archipel"
-        ],
-        "adjectifs": [
-          "enchantée", "de cristal", "scintillant", "féerique", "cachée",
-          "de sable doré", "lumineuse", "sacrée", "mystique", "flottante",
-          "luxuriante", "profond", "verdoyante", "enchanté", "abrupte",
-          "luminescent", "étoilée", "endormi", "enchantée", "magique"
         ]
       },
       "accessoires": {
@@ -63,12 +52,6 @@
           "bouclier", "amulette", "grimoire", "flûte", "cape",
           "sceptre", "miroir", "bourse", "lanterne", "pendentif",
           "ceinture", "médaillon", "plume", "cor", "talisman"
-        ],
-        "adjectifs": [
-          "magique", "d’or", "runique", "enchanté", "sacrée",
-          "lumineux", "de protection", "ancien", "mystique", "invisible",
-          "royal", "divin", "enchantée", "magique", "étoilé",
-          "de force", "brisé", "d’ange", "de guerre", "de puissance"
         ]
       }
     },
@@ -79,12 +62,6 @@
           "capitaine", "hacker", "colonne", "robot", "clone",
           "ambassadrice", "ingénieur", "pilote", "explorateur", "cyborg",
           "télépathe", "pilote", "technicien", "savant", "robot"
-        ],
-        "adjectifs": [
-          "interstellaire", "explorateur", "alien", "spatial", "rebelle",
-          "de vaisseau", "galactique", "martienne", "sentinelle", "mutant",
-          "extraterrestre", "spatial", "de drone", "de temps", "guerrier",
-          "alien", "de chasse", "nomade", "excentrique", "de combat"
         ]
       },
       "animaux": {
@@ -93,12 +70,6 @@
           "singe", "chien", "aigle", "serpent", "chat",
           "tortue", "faucon", "ours", "corbeau", "loup",
           "grenouille", "dragon", "poisson", "scorpion", "papillon"
-        ],
-        "adjectifs": [
-          "mutante", "robotique", "spatial", "cybernétique", "luminescent",
-          "bionique", "robotique", "mécanique", "électrique", "holographique",
-          "spatiale", "cyber", "robot", "artificiel", "mécanique",
-          "alien", "robotique", "volant", "bionique", "laser"
         ]
       },
       "vehicules": {
@@ -107,12 +78,6 @@
           "sous-marin", "moto", "planeur", "rover", "hélicoptère",
           "cargo", "buggy", "jet", "vaisseau", "glider",
           "train", "quad", "pod", "module", "scooter"
-        ],
-        "adjectifs": [
-          "spatial", "futuriste", "orbitale", "magnétique", "de combat",
-          "spatial", "antigravité", "ionique", "lunaire", "robot",
-          "interstellaire", "martien", "supersonique", "de reconnaissance", "solaire",
-          "magnétique", "volant", "de course", "d’exploration", "spatial"
         ]
       },
       "paysages": {
@@ -121,12 +86,6 @@
           "canyon", "station", "océan", "jungle", "désert",
           "plaine", "montagne", "lac", "forêt", "plateau",
           "marais", "ville", "cratère", "plaine", "récif"
-        ],
-        "adjectifs": [
-          "désertique", "flottante", "habitable", "gelée", "colorée",
-          "martien", "orbitale", "de gaz", "extraterrestre", "de cristal",
-          "radioactive", "volcanique", "de mercure", "artificielle", "lunaire",
-          "toxique", "sous-marine", "d’impact", "stellaire", "spatial"
         ]
       },
       "accessoires": {
@@ -135,12 +94,6 @@
           "scanner", "clé", "générateur", "visière", "disque",
           "bracelet", "module", "arme", "traducteur", "drone",
           "montre", "bouclier", "injecteur", "carte", "terminal"
-        ],
-        "adjectifs": [
-          "laser", "holographique", "quantique", "spatial", "neuronale",
-          "biométrique", "d’hyperespace", "portable", "thermique", "de données",
-          "de téléportation", "de survie", "à plasma", "universel", "de poche",
-          "chronospatiale", "énergétique", "nanite", "stellaire", "portable"
         ]
       }
     },
@@ -151,12 +104,6 @@
           "démon", "clown", "poupée", "esprit", "monstre",
           "veuve", "prêtre", "loup-garou", "nécromancien", "banshee",
           "chasseur", "squelette", "sorcier", "esprit", "diable"
-        ],
-        "adjectifs": [
-          "vengeur", "masqué", "maléfique", "affamé", "assoiffé",
-          "possédé", "terrifiant", "hantée", "tourmenté", "des ombres",
-          "noire", "maudit", "sauvage", "sinistre", "hurlante",
-          "de têtes", "animé", "noir", "vengeur", "cornu"
         ]
       },
       "animaux": {
@@ -165,12 +112,6 @@
           "serpent", "loup", "oiseau", "scorpion", "crapaud",
           "chauve-souris", "corbeau", "chien", "iguane", "hibou",
           "mouche", "ver", "aigle", "serpent", "scorpion"
-        ],
-        "adjectifs": [
-          "sinistre", "géante", "démoniaque", "mutant", "spectral",
-          "venimeux", "maudit", "de malheur", "noir", "toxique",
-          "vampire", "de la mort", "fantôme", "monstrueux", "hurlant",
-          "carnivore", "géant", "décharné", "à deux têtes", "infernal"
         ]
       },
       "vehicules": {
@@ -179,12 +120,6 @@
           "chariot", "avion", "camion", "calèche", "sous-marin",
           "train", "carrosse", "bateau", "quad", "roulotte",
           "char", "traîneau", "avion", "bateau", "van"
-        ],
-        "adjectifs": [
-          "hantée", "abandonné", "maudit", "spectral", "démoniaque",
-          "de l’enfer", "crashé", "fantôme", "hantée", "maudit",
-          "de la mort", "noir", "pirate", "infernal", "maudite",
-          "spectral", "hanté", "abandonné", "à vapeur", "possédé"
         ]
       },
       "paysages": {
@@ -193,12 +128,6 @@
           "plaine", "cave", "lac", "montagne", "marais",
           "île", "désert", "ville", "château", "vallée",
           "cloître", "mine", "jardin", "pont", "tour"
-        ],
-        "adjectifs": [
-          "brumeux", "en ruine", "maudite", "abandonné", "hanté",
-          "désolée", "sombre", "de sang", "lugubre", "putride",
-          "maudite", "spectral", "fantôme", "en ruine", "de brume",
-          "abandonné", "effondrée", "hanté", "brisé", "maudite"
         ]
       },
       "accessoires": {
@@ -207,12 +136,6 @@
           "collier", "poupée", "cloche", "crâne", "chaîne",
           "chandelier", "médaillon", "faux", "coffre", "horloge",
           "pentagramme", "voile", "talisman", "clé", "journal"
-        ],
-        "adjectifs": [
-          "terrifiant", "ensanglantée", "maudit", "interdit", "éteinte",
-          "de morts", "possédée", "funèbre", "gravé", "rouillée",
-          "éteint", "maudit", "hantée", "scellé", "arrêtée",
-          "gravé", "noir", "démoniaque", "rouillée", "ensorcelé"
         ]
       }
     }
