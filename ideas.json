@@ -276,13 +276,42 @@
     },
     "Horreur": {
       "personnages": {
-        "noms": [
-          {"nom": "fantôme", "genre": "masculin"}, {"nom": "tueur", "genre": "masculin"}, {"nom": "sorcière", "genre": "féminin"},
-          {"nom": "zombie", "genre": "masculin"}, {"nom": "vampire", "genre": "masculin"}, {"nom": "démon", "genre": "masculin"},
-          {"nom": "clown", "genre": "masculin"}, {"nom": "poupée", "genre": "féminin"}, {"nom": "esprit", "genre": "masculin"},
-          {"nom": "monstre", "genre": "masculin"}
-        ]
-      },
+  "noms": [
+    {"nom": "fantôme", "genre": "masculin"}, {"nom": "tueur", "genre": "masculin"}, {"nom": "sorcière", "genre": "féminin"},
+    {"nom": "zombie", "genre": "masculin"}, {"nom": "vampire", "genre": "masculin"}, {"nom": "démon", "genre": "masculin"},
+    {"nom": "clown", "genre": "masculin"}, {"nom": "poupée", "genre": "féminin"}, {"nom": "esprit", "genre": "masculin"},
+    {"nom": "monstre", "genre": "masculin"}, {"nom": "loup-garou", "genre": "masculin"}, {"nom": "nécromancien", "genre": "masculin"},
+    {"nom": "banshee", "genre": "féminin"}, {"nom": "chasseur", "genre": "masculin"}, {"nom": "veuve", "genre": "féminin"},
+    {"nom": "prêtre", "genre": "masculin"}, {"nom": "diable", "genre": "masculin"}, {"nom": "sorcier", "genre": "masculin"},
+    {"nom": "spectre", "genre": "masculin"}, {"nom": "goule", "genre": "féminin"}, {"nom": "revenant", "genre": "masculin"},
+    {"nom": "assassin", "genre": "masculin"}, {"nom": "prophétesse", "genre": "féminin"}, {"nom": "momie", "genre": "féminin"},
+    {"nom": "squelette", "genre": "masculin"}, {"nom": "poltergeist", "genre": "masculin"}, {"nom": "chasseresse", "genre": "féminin"},
+    {"nom": "gardien", "genre": "masculin"}, {"nom": "nécromancienne", "genre": "féminin"}, {"nom": "exorciste", "genre": "masculin"},
+    {"nom": "médium", "genre": "féminin"}, {"nom": "vampiresse", "genre": "féminin"}, {"nom": "démonologue", "genre": "masculin"},
+    {"nom": "prophète", "genre": "masculin"}, {"nom": "tueur masqué", "genre": "masculin"}, {"nom": "sorcière des marais", "genre": "féminin"},
+    {"nom": "zombie infecté", "genre": "masculin"}, {"nom": "vampire ancien", "genre": "masculin"}, {"nom": "démon des enfers", "genre": "masculin"},
+    {"nom": "clown maléfique", "genre": "masculin"}, {"nom": "poupée maudite", "genre": "féminin"}, {"nom": "esprit tourmenté", "genre": "masculin"},
+    {"nom": "monstre des profondeurs", "genre": "masculin"}, {"nom": "loup-garou sauvage", "genre": "masculin"}, {"nom": "nécromancien maudit", "genre": "masculin"},
+    {"nom": "banshee hurlante", "genre": "féminin"}, {"nom": "chasseur de démons", "genre": "masculin"}, {"nom": "veuve noire", "genre": "féminin"},
+    {"nom": "prêtre possédé", "genre": "masculin"}, {"nom": "diable cornu", "genre": "masculin"}, {"nom": "sorcier des ombres", "genre": "masculin"},
+    {"nom": "spectre vengeur", "genre": "masculin"}, {"nom": "goule affamée", "genre": "féminin"}, {"nom": "revenant errant", "genre": "masculin"},
+    {"nom": "assassin des ténèbres", "genre": "masculin"}, {"nom": "prophétesse des cauchemars", "genre": "féminin"}, {"nom": "momie des sables", "genre": "féminin"},
+    {"nom": "squelette animé", "genre": "masculin"}, {"nom": "poltergeist furieux", "genre": "masculin"}, {"nom": "chasseresse des enfers", "genre": "féminin"},
+    {"nom": "gardien maudit", "genre": "masculin"}, {"nom": "nécromancienne des cryptes", "genre": "féminin"}, {"nom": "exorciste solitaire", "genre": "masculin"},
+    {"nom": "médium des esprits", "genre": "féminin"}, {"nom": "vampiresse assoiffée", "genre": "féminin"}, {"nom": "démonologue érudit", "genre": "masculin"},
+    {"nom": "prophète des ténèbres", "genre": "masculin"}, {"nom": "tueur des ombres", "genre": "masculin"}, {"nom": "sorcière des bois", "genre": "féminin"},
+    {"nom": "zombie errant", "genre": "masculin"}, {"nom": "vampire des cryptes", "genre": "masculin"}, {"nom": "démon des flammes", "genre": "masculin"},
+    {"nom": "clown des cauchemars", "genre": "masculin"}, {"nom": "poupée hantée", "genre": "féminin"}, {"nom": "esprit des marais", "genre": "masculin"},
+    {"nom": "monstre des cavernes", "genre": "masculin"}, {"nom": "loup-garou des forêts", "genre": "masculin"}, {"nom": "nécromancien des ombres", "genre": "masculin"},
+    {"nom": "banshee des lacs", "genre": "féminin"}, {"nom": "chasseur de spectres", "genre": "masculin"}, {"nom": "veuve des cimetières", "genre": "féminin"},
+    {"nom": "prêtre des enfers", "genre": "masculin"}, {"nom": "diable des abysses", "genre": "masculin"}, {"nom": "sorcier maudit", "genre": "masculin"},
+    {"nom": "spectre des tempêtes", "genre": "masculin"}, {"nom": "goule des cryptes", "genre": "féminin"}, {"nom": "revenant des bois", "genre": "masculin"},
+    {"nom": "assassin des marais", "genre": "masculin"}, {"nom": "prophétesse maudite", "genre": "féminin"}, {"nom": "momie des tombes", "genre": "féminin"},
+    {"nom": "squelette des oubliettes", "genre": "masculin"}, {"nom": "poltergeist des manoirs", "genre": "masculin"}, {"nom": "chasseresse des ténèbres", "genre": "féminin"},
+    {"nom": "gardien des cryptes", "genre": "masculin"}, {"nom": "nécromancienne des enfers", "genre": "féminin"}, {"nom": "exorciste des ombres", "genre": "masculin"},
+    {"nom": "médium des cauchemars", "genre": "féminin"}, {"nom": "vampiresse des forêts", "genre": "féminin"}, {"nom": "démonologue des abysses", "genre": "masculin"}
+  ]
+},
       "animaux": {
         "noms": [
           {"nom": "corbeau", "genre": "masculin"}, {"nom": "araignée", "genre": "féminin"}, {"nom": "chien", "genre": "masculin"},
